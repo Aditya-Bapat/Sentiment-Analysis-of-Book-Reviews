@@ -1,0 +1,30 @@
+📚 Sentiment Analysis of Book Reviews
+
+📌 Project Overview
+This project performs sentiment analysis on book reviews scraped from Books to Scrape.
+The workflow involves web scraping, data preprocessing, sentiment classification (VADER), and exploratory data analysis (EDA) with interactive visualizations.
+The goal is to understand how star ratings correlate with customer sentiment and uncover patterns in review length, word usage, and sentiment distribution.
+
+⚙️ Tech Stack & Tools
+Python (requests, BeautifulSoup, pandas, nltk-VADER)
+Data Visualization: Plotly, Seaborn, Matplotlib
+Data Storage: CSV
+Environment: Jupyter Notebook
+
+🔑 Features
+Scraped 180+ book reviews with ratings (1–5 stars).
+Converted star ratings (One–Five → 1–5 numeric).
+Applied VADER sentiment analysis to classify reviews as Positive, Neutral, or Negative.
+Generated compound sentiment scores for each review.
+Performed EDA with:
+Sentiment distribution across reviews
+Compound scores vs star ratings (boxplots)
+Review length analysis
+Word frequency analysis (positive vs negative reviews)
+Built interactive charts with Plotly for dynamic exploration.
+
+📊 Key Insights
+75% of 5-star reviews matched Positive sentiment classification.
+1-star reviews were more often Negative and 2× longer on average.
+Strong correlation between ratings and VADER sentiment scores.
+Negative reviews highlighted issues like “poor quality”, “late delivery”, “waste”, while positive reviews emphasized “good”, “quality”, “great”.
